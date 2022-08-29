@@ -49,7 +49,7 @@ req.url.split('?')[0] : req.url
         res.writeHead(302,  {Location: "/help"})
         res.end();
     }
-  }).listen(6661, function(){
+  }).listen(8080, function(){
         //listen on port 6661
    console.log("server start at port 6661");
   });
